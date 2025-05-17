@@ -20,7 +20,7 @@ export const mockCategories = [
   {
     id: 'appliances',
     name: 'Electrodomésticos',
-    icon: 'https://images.pexels.com/photos/4108718/pexels-photo-4108718.jpeg?auto=compress&cs=tinysrgb&w=64'
+    icon: 'https://plus.unsplash.com/premium_vector-1728574629137-cd3b17225462?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'painting',

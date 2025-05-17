@@ -145,7 +145,7 @@ export default function HomeScreen() {
       ) : (
         <View style={styles.emptyContainer}>
           <Image 
-            source={{ uri: 'https://i.ibb.co/kQNczGZ/empty-requests.png' }} 
+            source={{ uri: 'https://plus.unsplash.com/premium_vector-1731582098706-cb92f9272335?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
             style={styles.emptyImage} 
             resizeMode="contain"
           />

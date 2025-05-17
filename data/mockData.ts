@@ -24,13 +24,8 @@ export const mockCategories = [
   },
   {
     id: 'painting',
-    name: 'Pintura',
+    name: 'Albañilería',
     icon: 'https://images.pexels.com/photos/4108732/pexels-photo-4108732.jpeg?auto=compress&cs=tinysrgb&w=64'
-  },
-  {
-    id: 'carpentry',
-    name: 'Carpintería',
-    icon: 'https://images.pexels.com/photos/4108726/pexels-photo-4108726.jpeg?auto=compress&cs=tinysrgb&w=64'
   }
 ];
 

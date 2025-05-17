@@ -40,7 +40,7 @@ export const mockServices = [
     rating: 4.8,
     image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800',
     providerName: 'Carlos Gutiérrez',
-    providerAvatar: 'https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=150',
+    providerAvatar: 'https://images.pexels.com/photos/4487450/pexels-photo-4487450.jpeg',
     providerId: '1',
     location: 'Palermo, Buenos Aires',
     description: 'Servicio de plomería profesional con más de 15 años de experiencia en el rubro. Realizo todo tipo de trabajos: instalaciones, reparaciones, mantenimiento, detección y solución de pérdidas de agua, instalación de griferías, sanitarios, desagües, bombas de agua y más.',

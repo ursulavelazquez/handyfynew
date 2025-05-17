@@ -46,7 +46,7 @@ export default function LoginScreen() {
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         <View style={styles.logoContainer}>
           <Image
-            source={{ uri: '@/app/HANDYFY (1) copy.png' }}
+            source={{uri: '@/app/HANDYFY (1) copy.png'}}
             style={styles.logo}
             resizeMode="contain"
           />

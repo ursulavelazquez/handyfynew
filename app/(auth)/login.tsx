@@ -122,7 +122,7 @@ export default function LoginScreen() {
           
           <TouchableOpacity style={styles.socialButton}>
             <Image 
-              source={{ uri: 'https://i.ibb.co/1ZgVv1H/google-icon.png' }} 
+              source={{ uri: 'https://images.unsplash.com/vector-1739890613151-62a267d4d253?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
               style={styles.googleIcon} 
             />
             <Text style={styles.socialButtonText}>Google</Text>

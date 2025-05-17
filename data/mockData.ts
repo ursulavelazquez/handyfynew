@@ -38,7 +38,7 @@ export const mockServices = [
     categoryId: 'plumbing',
     price: 2500,
     rating: 4.8,
-    image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     providerName: 'Carlos Gutiérrez',
     providerAvatar: 'https://images.pexels.com/photos/4487450/pexels-photo-4487450.jpeg',
     providerId: '1',

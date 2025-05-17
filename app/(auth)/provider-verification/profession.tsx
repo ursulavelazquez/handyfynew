@@ -13,9 +13,6 @@ export default function ProfessionVerificationScreen() {
   const [description, setDescription] = useState('');
 
   const handleContinue = () => {
-    if (!selectedCategory || !experience || !description) {
-      return;
-    }
     router.push('/provider-verification/certificates');
   };
 
@@ -32,7 +29,7 @@ export default function ProfessionVerificationScreen() {
       <VerificationProgress currentStep={2} />
 
       <View style={styles.content}>
-        <Text style={styles.sectionTitle}>Categoría principal de servicio</Text>
+        <Text style={styles.sectionTitle}>Categoría principal de servicio (opcional)</Text>
         <View style={styles.categoriesContainer}>
           {mockCategories.map((category) => (
             <TouchableOpacity
@@ -59,7 +56,7 @@ export default function ProfessionVerificationScreen() {
           ))}
         </View>
 
-        <Text style={styles.sectionTitle}>Años de experiencia</Text>
+        <Text style={styles.sectionTitle}>Años de experiencia (opcional)</Text>
         <TextInput
           style={styles.input}
           placeholder="Ej: 5 años"
@@ -67,7 +64,7 @@ export default function ProfessionVerificationScreen() {
           onChangeText={setExperience}
         />
 
-        <Text style={styles.sectionTitle}>Describe brevemente tus servicios</Text>
+        <Text style={styles.sectionTitle}>Describe brevemente tus servicios (opcional)</Text>
         <TextInput
           style={[styles.input, styles.textArea]}
           placeholder="Describe tus servicios, especialidades y experiencia en el rubro..."
@@ -83,7 +80,6 @@ export default function ProfessionVerificationScreen() {
         <Button
           title="Continuar"
           onPress={handleContinue}
-          disabled={!selectedCategory || !experience || !description}
           fullWidth
         />
       </View>

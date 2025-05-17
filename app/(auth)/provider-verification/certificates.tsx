@@ -58,7 +58,7 @@ export default function CertificatesVerificationScreen() {
       <View style={styles.content}>
         <View style={styles.uploadSection}>
           <Upload size={32} color="#008080" />
-          <Text style={styles.uploadTitle}>Certificados o licencias</Text>
+          <Text style={styles.uploadTitle}>Certificados o licencias (opcional)</Text>
           <Text style={styles.uploadSubtitle}>
             Sube certificados, licencias o diplomas relacionados con tu profesión
           </Text>
@@ -77,7 +77,7 @@ export default function CertificatesVerificationScreen() {
 
         <View style={styles.uploadSection}>
           <Camera size={32} color="#008080" />
-          <Text style={styles.uploadTitle}>Foto de perfil profesional</Text>
+          <Text style={styles.uploadTitle}>Foto de perfil profesional (opcional)</Text>
           <Text style={styles.uploadSubtitle}>
             Una buena foto de perfil aumenta la confianza de los clientes
           </Text>

@@ -26,9 +26,6 @@ export default function IdentityVerificationScreen() {
   };
 
   const handleContinue = () => {
-    if (!documentNumber || !documentImage) {
-      return;
-    }
     router.push('/provider-verification/profession');
   };
 
@@ -86,7 +83,7 @@ export default function IdentityVerificationScreen() {
           </TouchableOpacity>
         </View>
 
-        <Text style={styles.sectionTitle}>Número de documento</Text>
+        <Text style={styles.sectionTitle}>Número de documento (opcional)</Text>
         <TextInput
           style={styles.input}
           placeholder="Ingresa tu número de documento"
@@ -95,7 +92,7 @@ export default function IdentityVerificationScreen() {
           keyboardType="numeric"
         />
 
-        <Text style={styles.sectionTitle}>Sube una foto de tu documento</Text>
+        <Text style={styles.sectionTitle}>Sube una foto de tu documento (opcional)</Text>
         <TouchableOpacity style={styles.uploadContainer} onPress={pickImage}>
           {documentImage ? (
             <Image source={{ uri: documentImage }} style={styles.documentImage} />
@@ -116,7 +113,7 @@ export default function IdentityVerificationScreen() {
         <View style={styles.securityNote}>
           <Shield size={20} color="#008080" />
           <Text style={styles.securityText}>
-            Tus datos personales están protegidos y solo se utilizan para verificar tu identidad.
+            La verificación de identidad es opcional pero recomendada para generar más confianza en los clientes.
           </Text>
         </View>
       </View>
@@ -125,7 +122,6 @@ export default function IdentityVerificationScreen() {
         <Button
           title="Continuar"
           onPress={handleContinue}
-          disabled={!documentNumber || !documentImage}
           fullWidth
         />
       </View>

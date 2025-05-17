@@ -74,6 +74,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const signOut = () => {
     setUser(null);
+    setUserType('client'); // Reset to client type on sign out
   };
 
   const switchUserType = () => {

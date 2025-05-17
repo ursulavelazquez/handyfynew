@@ -4,11 +4,15 @@ import { useRouter } from 'expo-router';
 import { CircleCheck as CheckCircle } from 'lucide-react-native';
 import Button from '@/components/Button';
 import VerificationProgress from '@/components/VerificationProgress';
+import { useAuth } from '@/contexts/AuthContext';
 
 export default function VerificationCompleteScreen() {
   const router = useRouter();
+  const { switchUserType } = useAuth();
 
   const handleContinue = () => {
+    // Switch to provider type and redirect to provider interface
+    switchUserType();
     router.replace('/(app)/(tabs)');
   };
 
@@ -25,7 +29,7 @@ export default function VerificationCompleteScreen() {
         </Text>
 
         <Image
-          source={{ uri: 'https://i.ibb.co/Tvx6Ps5/email-sent.png' }}
+          source={{ uri: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800' }}
           style={styles.image}
           resizeMode="contain"
         />
@@ -55,7 +59,7 @@ export default function VerificationCompleteScreen() {
 
       <View style={styles.footer}>
         <Button
-          title="Ir al inicio"
+          title="Ir al Panel de Prestador"
           onPress={handleContinue}
           fullWidth
         />

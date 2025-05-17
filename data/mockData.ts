@@ -72,7 +72,7 @@ export const mockServices = [
       {
         id: 2,
         userName: 'Martín Rodríguez',
-        userAvatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150',
+        userAvatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
         rating: 4.5,
         date: '03/04/2023',
         text: 'Muy buen trabajo en la instalación del termotanque nuevo. Puntual y prolijo. Lo único para mejorar es que podría haber explicado más sobre mantenimiento.'

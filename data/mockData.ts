@@ -25,7 +25,7 @@ export const mockCategories = [
   {
     id: 'painting',
     name: 'Albañilería',
-    icon: 'https://images.pexels.com/photos/4108732/pexels-photo-4108732.jpeg?auto=compress&cs=tinysrgb&w=64'
+    icon: 'https://plus.unsplash.com/premium_vector-1731922150968-344f96fd7381?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }
 ];
 

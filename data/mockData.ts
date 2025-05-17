@@ -10,7 +10,7 @@ export const mockCategories = [
   {
     id: 'electrical',
     name: 'Electricidad',
-    icon: 'https://images.unsplash.com/vector-1738926209568-23936ba7152e?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    icon: 'https://media.istockphoto.com/id/1126163079/vector/electric-plug-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=mPmDvDrXgJE93ciOboJMAMamuWinxMv36Fw_4kb_Cf0='
   },
   {
     id: 'cleaning',

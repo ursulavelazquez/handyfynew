@@ -5,7 +5,7 @@ export const mockCategories = [
   {
     id: 'plumbing',
     name: 'Plomería',
-    icon: 'https://images.pexels.com/photos/4116706/pexels-photo-4116706.jpeg?auto=compress&cs=tinysrgb&w=64'
+    icon: 'https://images.unsplash.com/vector-1739806775931-c11ec3f93762?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'electrical',

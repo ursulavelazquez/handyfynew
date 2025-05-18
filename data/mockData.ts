@@ -46,7 +46,7 @@ export const mockServices = [
     description: 'Servicio de plomería profesional con más de 15 años de experiencia en el rubro. Realizo todo tipo de trabajos: instalaciones, reparaciones, mantenimiento, detección y solución de pérdidas de agua, instalación de griferías, sanitarios, desagües, bombas de agua y más.',
     gallery: [
       'https://images.pexels.com/photos/8978603/pexels-photo-8978603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/4116706/pexels-photo-4116706.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/11062798/pexels-photo-11062798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/4116712/pexels-photo-4116712.jpeg?auto=compress&cs=tinysrgb&w=800',
       'https://images.pexels.com/photos/4116714/pexels-photo-4116714.jpeg?auto=compress&cs=tinysrgb&w=800',
       'https://images.pexels.com/photos/4116716/pexels-photo-4116716.jpeg?auto=compress&cs=tinysrgb&w=800'

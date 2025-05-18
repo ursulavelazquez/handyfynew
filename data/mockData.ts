@@ -48,7 +48,7 @@ export const mockServices = [
       'https://images.pexels.com/photos/8978603/pexels-photo-8978603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/11062798/pexels-photo-11062798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/16790205/pexels-photo-16790205/free-photo-of-blanco-y-negro-pared-muro-bano.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/4116714/pexels-photo-4116714.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.unsplash.com/photo-1676210134188-4c05dd172f89?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.pexels.com/photos/4116716/pexels-photo-4116716.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     services: [

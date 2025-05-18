@@ -203,7 +203,7 @@ export const mockServices = [
     location: 'Caballito, Buenos Aires',
     description: 'Técnico especializado en sistemas de refrigeración y aire acondicionado con más de 10 años de experiencia. Realizo instalaciones, mantenimiento y reparaciones de equipos split, ventana, portátiles y sistemas centrales para hogares y comercios. Trabajo con todas las marcas disponibles en el mercado argentino.',
     gallery: [
-      'https://plus.unsplash.com/premium_photo-1664298059861-1560b39fb890?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1709432767122-d3cb5326911a?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.pexels.com/photos/4108719/pexels-photo-4108719.jpeg?auto=compress&cs=tinysrgb&w=800',
       'https://images.pexels.com/photos/4108720/pexels-photo-4108720.jpeg?auto=compress&cs=tinysrgb&w=800',
       'https://images.pexels.com/photos/4108721/pexels-photo-4108721.jpeg?auto=compress&cs=tinysrgb&w=800'

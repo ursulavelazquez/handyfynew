@@ -102,7 +102,7 @@ export const mockServices = [
     description: 'Electricista matriculado con amplia experiencia en instalaciones eléctricas residenciales y comerciales. Realizo todo tipo de trabajos eléctricos, desde instalaciones completas hasta pequeñas reparaciones, siempre con materiales de primera calidad y cumpliendo con todas las normas de seguridad vigentes.',
     gallery: [
       'https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.unsplash.com/photo-1597502310092-31cdaa35b46d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.pexels.com/photos/8005398/pexels-photo-8005398.jpeg?auto=compress&cs=tinysrgb&w=800',
       'https://images.pexels.com/photos/8005399/pexels-photo-8005399.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],

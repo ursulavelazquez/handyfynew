@@ -5,27 +5,27 @@ export const mockCategories = [
   {
     id: 'plumbing',
     name: 'Plomería',
-    icon: 'https://images.unsplash.com/vector-1739806775931-c11ec3f93762?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    icon: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&auto=format&fit=crop'
   },
   {
     id: 'electrical',
     name: 'Electricidad',
-    icon: 'https://plus.unsplash.com/premium_vector-1731660866826-9d0759c165fc?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    icon: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&auto=format&fit=crop'
   },
   {
     id: 'cleaning',
     name: 'Limpieza',
-    icon: 'https://plus.unsplash.com/premium_vector-1731922150890-9eaee153a8a4?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    icon: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&auto=format&fit=crop'
   },
   {
     id: 'appliances',
     name: 'Electrodomésticos',
-    icon: 'https://plus.unsplash.com/premium_vector-1728574629137-cd3b17225462?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    icon: 'https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?w=800&auto=format&fit=crop'
   },
   {
-    id: 'painting',
+    id: 'masonry',
     name: 'Albañilería',
-    icon: 'https://plus.unsplash.com/premium_vector-1731922150968-344f96fd7381?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    icon: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop'
   }
 ];
 
@@ -38,53 +38,23 @@ export const mockServices = [
     categoryId: 'plumbing',
     price: 15000,
     rating: 4.8,
-    image: 'https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg',
     providerName: 'Carlos Gutiérrez',
     providerAvatar: 'https://images.pexels.com/photos/4487450/pexels-photo-4487450.jpeg',
     providerId: '1',
     location: 'Palermo, Buenos Aires',
-    description: 'Servicio de plomería profesional con más de 15 años de experiencia en el rubro. Realizo todo tipo de trabajos: instalaciones, reparaciones, mantenimiento, detección y solución de pérdidas de agua, instalación de griferías, sanitarios, desagües, bombas de agua y más.',
+    description: 'Servicio de plomería profesional con más de 15 años de experiencia. Realizo todo tipo de trabajos: instalaciones, reparaciones, mantenimiento y más.',
     gallery: [
-      'https://images.pexels.com/photos/8978603/pexels-photo-8978603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/11062798/pexels-photo-11062798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/16790205/pexels-photo-16790205/free-photo-of-blanco-y-negro-pared-muro-bano.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.unsplash.com/photo-1676210134188-4c05dd172f89?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.pexels.com/photos/11062798/pexels-photo-11062798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://images.pexels.com/photos/8978603/pexels-photo-8978603.jpeg',
+      'https://images.pexels.com/photos/11062798/pexels-photo-11062798.jpeg',
+      'https://images.pexels.com/photos/16790205/pexels-photo-16790205.jpeg'
     ],
     services: [
       'Reparación de pérdidas y filtraciones',
       'Instalación y reparación de cañerías',
       'Instalación de griferías y sanitarios',
-      'Destapaciones de cañerías',
-      'Instalación de termotanques y calefones',
-      'Conversión de calefones a termotanques',
-      'Reparación de bombas de agua'
-    ],
-    reviews: [
-      {
-        id: 1,
-        userName: 'Laura Méndez',
-        userAvatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg',
-        rating: 5.0,
-        date: '15/05/2023',
-        text: 'Excelente servicio. Carlos llegó puntual, identificó el problema rápidamente y lo solucionó en poco tiempo. Muy profesional y dejó todo limpio. Lo recomiendo ampliamente.'
-      },
-      {
-        id: 2,
-        userName: 'Martín Rodríguez',
-        userAvatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
-        rating: 4.5,
-        date: '03/04/2023',
-        text: 'Muy buen trabajo en la instalación del termotanque nuevo. Puntual y prolijo. Lo único para mejorar es que podría haber explicado más sobre mantenimiento.'
-      },
-      {
-        id: 3,
-        userName: 'Sofía Gómez',
-        userAvatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 5.0,
-        date: '22/03/2023',
-        text: 'Carlos solucionó una pérdida complicada que otros plomeros no pudieron arreglar. Muy honesto con el presupuesto y trabajo impecable. Definitivamente lo volveré a llamar.'
-      }
+      'Destapaciones',
+      'Instalación de termotanques'
     ]
   },
   {
@@ -94,240 +64,101 @@ export const mockServices = [
     categoryId: 'electrical',
     price: 28000,
     rating: 4.9,
-    image: 'https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg',
     providerName: 'Marcos Sánchez',
-    providerAvatar: 'https://plus.unsplash.com/premium_photo-1689977807477-a579eda91fa2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    providerAvatar: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg',
     providerId: '2',
     location: 'Recoleta, Buenos Aires',
-    description: 'Electricista matriculado con amplia experiencia en instalaciones eléctricas residenciales y comerciales. Realizo todo tipo de trabajos eléctricos, desde instalaciones completas hasta pequeñas reparaciones, siempre con materiales de primera calidad y cumpliendo con todas las normas de seguridad vigentes.',
+    description: 'Electricista matriculado con amplia experiencia en instalaciones eléctricas residenciales y comerciales.',
     gallery: [
-      'https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.unsplash.com/photo-1597502310092-31cdaa35b46d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://plus.unsplash.com/premium_photo-1682928136660-8cbeaf4941b2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://plus.unsplash.com/premium_photo-1682148175448-8e418fcfbaa7?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      'https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg',
+      'https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg',
+      'https://images.pexels.com/photos/8005398/pexels-photo-8005398.jpeg'
     ],
     services: [
       'Instalaciones eléctricas completas',
       'Reparación de cortocircuitos',
       'Instalación de tableros',
-      'Colocación de luces y artefactos',
-      'Instalación de termos eléctricos',
-      'Detección y solución de fugas eléctricas',
-      'Instalación de dimmers y domótica básica'
-    ],
-    reviews: [
-      {
-        id: 1,
-        userName: 'Pablo Fernández',
-        userAvatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 5.0,
-        date: '28/05/2023',
-        text: 'Marcos hizo un trabajo excelente renovando toda la instalación eléctrica de mi departamento. Es muy profesional, ordenado y cumplidor. El precio fue justo por la calidad del trabajo.'
-      },
-      {
-        id: 2,
-        userName: 'Diana López',
-        userAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 4.7,
-        date: '17/04/2023',
-        text: 'Muy buen servicio. Resolvió un problema de cortocircuitos que venía teniendo hace tiempo. Explicó todo claramente y dejó recomendaciones útiles.'
-      }
+      'Colocación de luces',
+      'Instalación de termos eléctricos'
     ]
   },
   {
     id: 3,
-    title: 'Servicio de Limpieza Profesional - Hogar y Oficinas',
+    title: 'Servicio de Limpieza Profesional',
     category: 'Limpieza',
     categoryId: 'cleaning',
     price: 20000,
     rating: 4.7,
-    image: 'https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg',
     providerName: 'Lucía Martínez',
-    providerAvatar: 'https://plus.unsplash.com/premium_photo-1667520474224-5c4864b690e0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    providerAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg',
     providerId: '3',
     location: 'Belgrano, Buenos Aires',
-    description: 'Ofrezco servicio de limpieza profunda para hogares y oficinas con productos ecológicos y de alta calidad. Tengo amplia experiencia en limpieza de propiedades y garantizo un trabajo impecable, prestando atención a cada detalle para dejar su espacio en perfectas condiciones.',
+    description: 'Servicio de limpieza profesional para hogares y oficinas con productos ecológicos.',
     gallery: [
-      'https://plus.unsplash.com/premium_photo-1667520396471-dc2065888cfb?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://plus.unsplash.com/premium_photo-1664908286296-9cf0a3f2f871?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://plus.unsplash.com/premium_photo-1667520405114-47d3677f966e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://plus.unsplash.com/premium_photo-1664910214915-b89e63fcb72e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      'https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg',
+      'https://images.pexels.com/photos/4108716/pexels-photo-4108716.jpeg',
+      'https://images.pexels.com/photos/4108717/pexels-photo-4108717.jpeg'
     ],
     services: [
-      'Limpieza general de hogares',
+      'Limpieza general',
+      'Limpieza profunda',
       'Limpieza de oficinas',
-      'Limpieza profunda de cocinas',
-      'Limpieza de baños',
-      'Limpieza post-construcción',
-      'Limpieza de vidrios y cristales',
-      'Lavado de alfombras y tapizados'
-    ],
-    reviews: [
-      {
-        id: 1,
-        userName: 'Carolina Vega',
-        userAvatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 5.0,
-        date: '10/06/2023',
-        text: 'Lucía hace un trabajo excepcional. Contrato su servicio mensualmente para mi departamento y siempre queda impecable. Muy detallista y responsable.'
-      },
-      {
-        id: 2,
-        userName: 'Roberto Álvarez',
-        userAvatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 4.5,
-        date: '22/05/2023',
-        text: 'Contratamos a Lucía para la limpieza post-obra y quedamos muy satisfechos. Trabajó arduamente y dejó todo reluciente. Único detalle: llegó un poco tarde, pero compensó con su profesionalismo.'
-      },
-      {
-        id: 3,
-        userName: 'María Torres',
-        userAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 4.8,
-        date: '05/05/2023',
-        text: 'Excelente servicio de limpieza para mi oficina. Lucía es muy profesional y utiliza productos que dejan un agradable aroma. La recomiendo completamente.'
-      }
+      'Limpieza post obra',
+      'Lavado de alfombras'
     ]
   },
   {
     id: 4,
-    title: 'Técnico en Refrigeración y Aire Acondicionado',
+    title: 'Técnico en Electrodomésticos',
     category: 'Electrodomésticos',
     categoryId: 'appliances',
     price: 15000,
     rating: 4.6,
-    image: 'https://plus.unsplash.com/premium_photo-1664298059861-1560b39fb890?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.pexels.com/photos/4108720/pexels-photo-4108720.jpeg',
     providerName: 'Miguel Torres',
-    providerAvatar: 'https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    providerAvatar: 'https://images.pexels.com/photos/1181687/pexels-photo-1181687.jpeg',
     providerId: '4',
     location: 'Caballito, Buenos Aires',
-    description: 'Técnico especializado en sistemas de refrigeración y aire acondicionado con más de 10 años de experiencia. Realizo instalaciones, mantenimiento y reparaciones de equipos split, ventana, portátiles y sistemas centrales para hogares y comercios. Trabajo con todas las marcas disponibles en el mercado argentino.',
+    description: 'Reparación de electrodomésticos de todas las marcas. Heladeras, lavarropas, lavavajillas y más.',
     gallery: [
-      'https://images.unsplash.com/photo-1709432767122-d3cb5326911a?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://plus.unsplash.com/premium_photo-1679943423706-570c6462f9a4?q=80&w=810&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1718203862467-c33159fdc504?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.pexels.com/photos/4108721/pexels-photo-4108721.jpeg?auto=compress&cs=tinysrgb&w=800'
+      'https://images.pexels.com/photos/4108720/pexels-photo-4108720.jpeg',
+      'https://images.pexels.com/photos/4108721/pexels-photo-4108721.jpeg',
+      'https://images.pexels.com/photos/4108722/pexels-photo-4108722.jpeg'
     ],
     services: [
-      'Instalación de aires acondicionados',
-      'Mantenimiento preventivo',
-      'Reparación de equipos',
-      'Carga de gas refrigerante',
-      'Limpieza de filtros y componentes',
-      'Detección y reparación de fugas',
-      'Asesoramiento para compra de equipos nuevos'
-    ],
-    reviews: [
-      {
-        id: 1,
-        userName: 'Alejandro Rossi',
-        userAvatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 4.5,
-        date: '20/04/2023',
-        text: 'Miguel instaló dos equipos split en mi casa. Trabajo prolijo y rápido. Me explicó cómo usar el control remoto y programar las funciones. Buen precio en comparación con otros técnicos.'
-      },
-      {
-        id: 2,
-        userName: 'Patricia Suárez',
-        userAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 4.8,
-        date: '15/03/2023',
-        text: 'Excelente servicio. Miguel reparó mi aire acondicionado que otros técnicos daban por perdido. Honesto con el presupuesto y muy profesional. Lo recomiendo ampliamente.'
-      }
+      'Reparación de heladeras',
+      'Reparación de lavarropas',
+      'Reparación de lavavajillas',
+      'Reparación de hornos',
+      'Mantenimiento preventivo'
     ]
   },
   {
     id: 5,
-    title: 'Pintor Profesional - Interior y Exterior',
-    category: 'Pintura',
-    categoryId: 'painting',
-    price: 1800,
-    rating: 4.5,
-    image: 'https://images.pexels.com/photos/4108732/pexels-photo-4108732.jpeg?auto=compress&cs=tinysrgb&w=800',
-    providerName: 'Ricardo López',
-    providerAvatar: 'https://images.pexels.com/photos/8961073/pexels-photo-8961073.jpeg?auto=compress&cs=tinysrgb&w=150',
+    title: 'Albañil Profesional',
+    category: 'Albañilería',
+    categoryId: 'masonry',
+    price: 25000,
+    rating: 4.8,
+    image: 'https://images.pexels.com/photos/4108725/pexels-photo-4108725.jpeg',
+    providerName: 'José Rodríguez',
+    providerAvatar: 'https://images.pexels.com/photos/1181688/pexels-photo-1181688.jpeg',
     providerId: '5',
-    location: 'Almagro, Buenos Aires',
-    description: 'Pintor profesional con amplia experiencia en trabajos de interior y exterior. Realizo todo tipo de trabajos de pintura: paredes, techos, aberturas, revestimientos y efectos decorativos. Trabajo con materiales de primera calidad para garantizar un acabado perfecto y duradero.',
-    gallery: [
-      'https://images.pexels.com/photos/4108732/pexels-photo-4108732.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/4108733/pexels-photo-4108733.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/4108734/pexels-photo-4108734.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/4108735/pexels-photo-4108735.jpeg?auto=compress&cs=tinysrgb&w=800'
-    ],
-    services: [
-      'Pintura de interiores',
-      'Pintura de exteriores',
-      'Pintura de aberturas',
-      'Trabajos en altura',
-      'Efectos decorativos',
-      'Colocación de papel tapiz',
-      'Reparación de grietas y humedad'
-    ],
-    reviews: [
-      {
-        id: 1,
-        userName: 'Mariano García',
-        userAvatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 4.3,
-        date: '05/06/2023',
-        text: 'Buen trabajo pintando mi living y comedor. Ricardo es detallista y usa buenos materiales. Lo único para mejorar es que se extendió un día más de lo previsto, pero el resultado final lo compensó.'
-      },
-      {
-        id: 2,
-        userName: 'Valeria Campos',
-        userAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 4.8,
-        date: '20/05/2023',
-        text: 'Excelente trabajo pintando el exterior de mi casa. Ricardo es muy profesional, cumplidor y limpio en su trabajo. El acabado quedó perfecto y a un precio razonable.'
-      }
-    ]
-  },
-  {
-    id: 6,
-    title: 'Carpintero Profesional - Muebles a Medida',
-    category: 'Carpintería',
-    categoryId: 'carpentry',
-    price: 2700,
-    rating: 4.9,
-    image: 'https://images.pexels.com/photos/4108726/pexels-photo-4108726.jpeg?auto=compress&cs=tinysrgb&w=800',
-    providerName: 'Sergio Ramírez',
-    providerAvatar: 'https://images.pexels.com/photos/8961075/pexels-photo-8961075.jpeg?auto=compress&cs=tinysrgb&w=150',
-    providerId: '6',
     location: 'Villa Crespo, Buenos Aires',
-    description: 'Carpintero con más de 20 años de experiencia en diseño y fabricación de muebles a medida para hogar y oficina. Trabajo con diferentes tipos de madera y materiales de primera calidad. Ofrezco asesoramiento personalizado, desde el diseño hasta la instalación final, para crear muebles funcionales y duraderos.',
+    description: 'Trabajos de albañilería en general. Construcciones, remodelaciones, reparaciones y más.',
     gallery: [
-      'https://images.pexels.com/photos/4108726/pexels-photo-4108726.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/4108727/pexels-photo-4108727.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/4108728/pexels-photo-4108728.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/4108729/pexels-photo-4108729.jpeg?auto=compress&cs=tinysrgb&w=800'
+      'https://images.pexels.com/photos/4108725/pexels-photo-4108725.jpeg',
+      'https://images.pexels.com/photos/4108726/pexels-photo-4108726.jpeg',
+      'https://images.pexels.com/photos/4108727/pexels-photo-4108727.jpeg'
     ],
     services: [
-      'Diseño y fabricación de muebles a medida',
-      'Restauración de muebles antiguos',
-      'Instalación de pisos de madera',
-      'Colocación de puertas y ventanas',
-      'Reparación de muebles',
-      'Trabajos en madera maciza y melamina',
-      'Construcción de decks y pérgolas'
-    ],
-    reviews: [
-      {
-        id: 1,
-        userName: 'Elena Martínez',
-        userAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 5.0,
-        date: '15/06/2023',
-        text: 'Sergio fabricó los muebles para toda mi cocina y quedaron espectaculares. Prestó atención a cada detalle y supo interpretar perfectamente lo que queríamos. Muy conformes con su trabajo.'
-      },
-      {
-        id: 2,
-        userName: 'Diego Ortega',
-        userAvatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150',
-        rating: 4.7,
-        date: '02/05/2023',
-        text: 'Le encargué la restauración de una mesa antigua familiar y el resultado superó mis expectativas. Tiene mucha experiencia y pasión por su trabajo. Totalmente recomendable.'
-      }
+      'Construcciones',
+      'Remodelaciones',
+      'Reparaciones',
+      'Colocación de cerámicos',
+      'Trabajos en altura'
     ]
   }
 ];

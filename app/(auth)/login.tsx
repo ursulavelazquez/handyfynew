@@ -38,6 +38,10 @@ export default function LoginScreen() {
     setShowPassword(!showPassword);
   };
 
+  const handleProviderLogin = () => {
+    router.replace('/provider-verification/identity');
+  };
+
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
@@ -129,6 +133,18 @@ export default function LoginScreen() {
           </TouchableOpacity>
         </View>
         
+        <View style={styles.providerLoginContainer}>
+          <Text style={styles.providerLoginText}>¿Eres prestador de servicios?</Text>
+          <TouchableOpacity 
+            style={styles.providerLoginButton}
+            onPress={handleProviderLogin}
+          >
+            <Text style={styles.providerLoginButtonText}>
+              Ingresar como prestador
+            </Text>
+          </TouchableOpacity>
+        </View>
+
         <View style={styles.registerContainer}>
           <Text style={styles.registerText}>¿No tienes una cuenta?</Text>
           <Link href="/register" asChild>
@@ -258,6 +274,30 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#212121',
     marginLeft: 8,
+  },
+  providerLoginContainer: {
+    alignItems: 'center',
+    marginBottom: 24,
+    paddingTop: 16,
+    borderTopWidth: 1,
+    borderTopColor: '#EEEEEE',
+  },
+  providerLoginText: {
+    fontFamily: 'Inter-Regular',
+    fontSize: 14,
+    color: '#757575',
+    marginBottom: 8,
+  },
+  providerLoginButton: {
+    backgroundColor: '#008080',
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+    borderRadius: 8,
+  },
+  providerLoginButtonText: {
+    fontFamily: 'Inter-Medium',
+    fontSize: 14,
+    color: '#FFFFFF',
   },
   registerContainer: {
     flexDirection: 'row',

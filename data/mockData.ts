@@ -64,7 +64,7 @@ export const mockServices = [
       {
         id: 1,
         userName: 'Laura Méndez',
-        userAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
+        userAvatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg',
         rating: 5.0,
         date: '15/05/2023',
         text: 'Excelente servicio. Carlos llegó puntual, identificó el problema rápidamente y lo solucionó en poco tiempo. Muy profesional y dejó todo limpio. Lo recomiendo ampliamente.'

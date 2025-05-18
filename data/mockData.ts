@@ -198,7 +198,7 @@ export const mockServices = [
     rating: 4.6,
     image: 'https://plus.unsplash.com/premium_photo-1664298059861-1560b39fb890?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     providerName: 'Miguel Torres',
-    providerAvatar: 'https://images.pexels.com/photos/8961071/pexels-photo-8961071.jpeg?auto=compress&cs=tinysrgb&w=150',
+    providerAvatar: 'https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     providerId: '4',
     location: 'Caballito, Buenos Aires',
     description: 'Técnico especializado en sistemas de refrigeración y aire acondicionado con más de 10 años de experiencia. Realizo instalaciones, mantenimiento y reparaciones de equipos split, ventana, portátiles y sistemas centrales para hogares y comercios. Trabajo con todas las marcas disponibles en el mercado argentino.',

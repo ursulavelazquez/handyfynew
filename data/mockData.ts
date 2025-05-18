@@ -36,7 +36,7 @@ export const mockServices = [
     title: 'Plomero Profesional - Arreglos y Reparaciones',
     category: 'Plomería',
     categoryId: 'plumbing',
-    price: 2500,
+    price: 15000,
     rating: 4.8,
     image: 'https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     providerName: 'Carlos Gutiérrez',

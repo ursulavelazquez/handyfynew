@@ -139,7 +139,7 @@ export const mockServices = [
     title: 'Servicio de Limpieza Profesional - Hogar y Oficinas',
     category: 'Limpieza',
     categoryId: 'cleaning',
-    price: 2000,
+    price: 20000,
     rating: 4.7,
     image: 'https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg?auto=compress&cs=tinysrgb&w=800',
     providerName: 'Lucía Martínez',
@@ -149,7 +149,7 @@ export const mockServices = [
     description: 'Ofrezco servicio de limpieza profunda para hogares y oficinas con productos ecológicos y de alta calidad. Tengo amplia experiencia en limpieza de propiedades y garantizo un trabajo impecable, prestando atención a cada detalle para dejar su espacio en perfectas condiciones.',
     gallery: [
       'https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/4108716/pexels-photo-4108716.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.pexels.com/photos/4108717/pexels-photo-4108717.jpeg?auto=compress&cs=tinysrgb&w=800',
       'https://images.pexels.com/photos/4108718/pexels-photo-4108718.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],

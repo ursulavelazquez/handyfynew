@@ -103,7 +103,7 @@ export const mockServices = [
     gallery: [
       'https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg?auto=compress&cs=tinysrgb&w=800',
       'https://images.unsplash.com/photo-1597502310092-31cdaa35b46d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.pexels.com/photos/8005398/pexels-photo-8005398.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://plus.unsplash.com/premium_photo-1682928136660-8cbeaf4941b2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.pexels.com/photos/8005399/pexels-photo-8005399.jpeg?auto=compress&cs=tinysrgb&w=800'
     ],
     services: [
